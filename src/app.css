@@ -1,0 +1,94 @@
+.app {
+  background-color: #dad9d9;
+  display: flex;
+  align-items: column;
+  justify-content: center;
+  height: 100vh;
+}
+
+.app > .main {
+  width: 100%;
+  padding: 3rem;
+}
+
+.app > .main > .header {
+  background-color: #f5f5f5;
+  padding: 2rem;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.app > .main > .header > .brand {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.app > .main > .header > .brand > img {
+  width: 32px;
+  height: 32px;
+}
+
+.app > .main > .header > .brand > h1 {
+  font-weight: 500;
+  font-size: 1.8rem;
+  color: #783fc1;
+  padding: 0;
+  margin: 0;
+}
+
+.app > .main > .header > .login > ul {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 0;
+  list-style-type: none;
+}
+
+.app > .main > .header > .login > ul > li.divider {
+  color: #dad9d9;
+}
+
+.app > .main > .section {
+  background-color: #f5f5f5;
+  padding: 0 2rem;
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  height: calc(100% - 6rem);
+  display: flex;
+  justify-content: space-between;
+}
+
+.app > .main > .section > .left {
+  width: 40%;
+}
+
+.app > .main > .section > .left > h2 {
+  font-size: 2.5rem;
+}
+
+.app > .main > .section > .left > .describe {
+  line-height: 1.5;
+  font-weight: 500;
+  margin-top: 2rem;
+  font-size: 1.4rem;
+}
+
+.app > .main > .section > .left > .begain {
+  margin-top: 4rem;
+  padding: 0.8rem 1.5rem;
+  background: #3e3e3e;
+  color: #ffffff;
+  border: 0;
+  border-radius: 1.5rem;
+  font-size: 1.4rem;
+  transition: all 200ms ease;
+  cursor: pointer;
+}
+
+.app > .main > .section > .left > .begain:hover {
+  background-color: #783fc1;
+}
